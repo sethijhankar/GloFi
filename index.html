@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charSet="utf-8"/>
+        <meta name="viewport" content="width=device-width"/>
+        <meta name="next-head-count" content="2"/>
+        <link rel="stylesheet" href="./assets/styles/styles.css">
+        <link rel="stylesheet" href="./assets/styles/styles2.css">
+        <link rel="shortcut icon" href="./assets/media/gloop finance logo.png" 
+        type="image/x-icon">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <title>GloFi / Finance</title>
+    </head>
+    <body>
+        <div id="__next">
+            <div data-rk="">
+                <style>
+                    [data-rk] {
+                        --rk-blurs-modalOverlay: blur(0px);
+                        --rk-radii-actionButton: 9999px;
+                        --rk-radii-connectButton: 12px;
+                        --rk-radii-menuButton: 12px;
+                        --rk-radii-modal: 24px;
+                        --rk-radii-modalMobile: 28px;
+                        --rk-colors-accentColor: #3898FF;
+                        --rk-colors-accentColorForeground: #FFF;
+                        --rk-colors-actionButtonBorder: rgba(255, 255, 255, 0.04);
+                        --rk-colors-actionButtonBorderMobile: rgba(255, 255, 255, 0.08);
+                        --rk-colors-actionButtonSecondaryBackground: rgba(255, 255, 255, 0.08);
+                        --rk-colors-closeButton: rgba(224, 232, 255, 0.6);
+                        --rk-colors-closeButtonBackground: rgba(255, 255, 255, 0.08);
+                        --rk-colors-connectButtonBackground: #1A1B1F;
+                        --rk-colors-connectButtonBackgroundError: #FF494A;
+                        --rk-colors-connectButtonInnerBackground: linear-gradient(0deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.15));
+                        --rk-colors-connectButtonText: #FFF;
+                        --rk-colors-connectButtonTextError: #FFF;
+                        --rk-colors-connectionIndicator: #30E000;
+                        --rk-colors-downloadBottomCardBackground: linear-gradient(126deg, rgba(0, 0, 0, 0) 9.49%, rgba(120, 120, 120, 0.2) 71.04%), #1A1B1F;
+                        --rk-colors-downloadTopCardBackground: linear-gradient(126deg, rgba(120, 120, 120, 0.2) 9.49%, rgba(0, 0, 0, 0) 71.04%), #1A1B1F;
+                        --rk-colors-error: #FF494A;
+                        --rk-colors-generalBorder: rgba(255, 255, 255, 0.08);
+                        --rk-colors-generalBorderDim: rgba(255, 255, 255, 0.04);
+                        --rk-colors-menuItemBackground: rgba(224, 232, 255, 0.1);
+                        --rk-colors-modalBackdrop: rgba(0, 0, 0, 0.5);
+                        --rk-colors-modalBackground: #1A1B1F;
+                        --rk-colors-modalBorder: rgba(255, 255, 255, 0.08);
+                        --rk-colors-modalText: #FFF;
+                        --rk-colors-modalTextDim: rgba(224, 232, 255, 0.3);
+                        --rk-colors-modalTextSecondary: rgba(255, 255, 255, 0.6);
+                        --rk-colors-profileAction: rgba(224, 232, 255, 0.1);
+                        --rk-colors-profileActionHover: rgba(224, 232, 255, 0.2);
+                        --rk-colors-profileForeground: rgba(224, 232, 255, 0.05);
+                        --rk-colors-selectedOptionBorder: rgba(224, 232, 255, 0.1);
+                        --rk-colors-standby: #FFD641;
+                        --rk-shadows-connectButton: 0px 4px 12px rgba(0, 0, 0, 0.1);
+                        --rk-shadows-dialog: 0px 8px 32px rgba(0, 0, 0, 0.32);
+                        --rk-shadows-profileDetailsAction: 0px 2px 6px rgba(37, 41, 46, 0.04);
+                        --rk-shadows-selectedOption: 0px 2px 6px rgba(0, 0, 0, 0.24);
+                        --rk-shadows-selectedWallet: 0px 2px 6px rgba(0, 0, 0, 0.24);
+                        --rk-shadows-walletLogo: 0px 2px 16px rgba(0, 0, 0, 0.16);
+                    }
+                </style>
+                <div style="height:10rem;width:100%;display:flex;justify-content:center;position:fixed;z-index:1000;left:0;top:0;background-color:transparent" data-aos="fade-down" data-aos-duration="1000">
+                    <div class="HeaderV2_header__vpWao nav">
+                        <div class="gloop-row gloop-row-space-between gloop-row-middle css-mxhywb" style="height:inherit">
+                            <div class="gloop-col gloop-col-12 css-mxhywb" >
+                                <div>
+                                    <div class="HeaderV2_mobileHeader__JUWXC" >
+                                        <div class="gloop-space css-mxhywb gloop-space-horizontal gloop-space-align-center">
+                                            <div class="logo-full">
+                                                <img alt="logo" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" style="color:transparent;width:60px;cursor:pointer" src="/assets/media/gloop finance logo.png"/>
+                                                <span  class="logo-text">GloFi</span>
+                                               </div>
+                                        </div>
+                                    </div>
+                                    <div class="HeaderV2_webHeader__XXRwJ">
+                                        <div class="LinkMenus_linkMenus__OVHA_">
+                                            <a class="LinkMenus_menu__Kk5VV" href="https://twitter.com/gloopfinance" target="_blank">
+                                                <img alt="twitter" loading="lazy" width="30" height="30" decoding="async" data-nimg="1" onmouseover="this.style.transform='rotate(20deg)'" onmouseout="this.style.transform='translateY(0px)'" style="transition: all 0.3s ease-in-out;" src="/assets/media/svg/Twitter.svg" />
+                                            </a>
+                                            <a class="LinkMenus_menu__Kk5VV" href="https://docs.gloop.finance/" target="_blank">
+                                                <img alt="document" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" onmouseover="this.style.transform='rotate(20deg)'" onmouseout="this.style.transform='translateY(0px)'" style="transition: all 0.3s ease-in-out;" src="/assets/media/svg/gloop.svg"/>
+                                            </a>
+                                            <a class="LinkMenus_menu__Kk5VV" style="border:0" href="https://gloopfinance.medium.com/" target="_blank">
+                                                <img alt="medium" loading="lazy" width="20" height="30" decoding="async" data-nimg="1" onmouseover="this.style.transform='rotate(20deg)'" onmouseout="this.style.transform='translateY(0px)'" style="transition: all 0.3s ease-in-out;" src="/assets/media/svg/medium.svg"/>
+                                            </a>
+                                        </div>
+                                       <div class="logo-full">
+                                        <img alt="logo" loading="lazy" width="140" height="50" decoding="async" data-nimg="1" style="color:transparent;width:50px;cursor:pointer" src="/assets/media/gloop finance logo.png"/>
+                                        <span  class="logo-text">GloFi</span>
+                                       </div>
+                                        <div class="HeaderV2_menus__jggCR">
+                                            <div class="HeaderV2_menuItem__UwOKt" style="display:inline-block;margin-left:3rem">
+                                                <div class="dropdown-trigger">
+                                                    <span class="gloop-dropdown-trigger">
+                                                        <!-- -->
+                                                        Resources
+                                                        <!-- -->
+                                                        <img alt="Polygon" loading="lazy" width="15" height="15" decoding="async" data-nimg="1" style="color:transparent" src="/assets/media/svg/dropdown-svgrepo-com.svg"/>
+                                                    </span>
+                                                    <ul class="dropdown">
+                                                        <li><a href="#">Documentation</a></li>
+                                                        <li><a href="#">Guide</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="HeaderV2_menuItem__UwOKt" style="display:inline-block;margin-left:3rem">
+                                                <div>
+                                                    <span>
+                                                    <!-- -->
+                                                    Borrow
+                                                    <!-- -->
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="HeaderV2_menuItem__UwOKt" style="display:inline-block;margin-left:3rem">
+                                                <div class="dropdown-trigger">
+                                                    <span class="gloop-dropdown-trigger">
+                                                        <!-- -->
+                                                        Earn
+                                                        <!-- -->
+                                                        <img alt="Polygon"  loading="lazy" width="15" height="15" decoding="async" data-nimg="1" style="color:transparent" src="/assets/media/svg/dropdown-svgrepo-com.svg"/>
+                                                    </span>
+                                                    <ul class="dropdown">
+                                                        <li><a href="#">Farm</a></li>
+                                                        <li><a href="#">Stability</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="HeaderV2_menuItem__UwOKt" style="display:inline-block;margin-left:3rem">
+                                                <div>
+                                                    <span>
+                                                    <!-- -->
+                                                    Swap
+                                                    <!-- -->
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gloop-col gloop-col-12 css-mxhywb">
+                                <div class="HeaderV2_action__j4tqm" style="display:flex;justify-content:end">
+                                    <div class="gloop-space css-mxhywb gloop-space-horizontal gloop-space-align-center">
+                                        <div class="gloop-space-item" style="margin-right:20px">
+                                            <span class="HeaderV2_portfolio__ke0an">My Portfolio</span>
+                                        </div>
+                                        <div class="gloop-space-item" style="margin-right:20px">
+                                            <div class="iekbcc0 ju367va ju367v1n" aria-hidden="true">
+                                                <button class="connect" type="button" data-testid="rk-connect-button">Connect </button>
+                                            </div>
+                                        </div>
+                                        <div class="gloop-space-item">
+                                            <div class="MenuBtn_menubtn__AoRUI">
+                                                <img alt="" loading="lazy" width="15" height="11" decoding="async" data-nimg="1" style="color:transparent;width:14px" src="/assets/media/menu.d2f170b9.svg"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="display:flex;justify-content:center;overflow-x:hidden;position:relative">
+                    <div style="max-width:1440px;width:100%;padding:10rem 5rem 0 5rem;min-height:60vh">
+                        <div class="home_home__bzUT9">
+                            <div class="home_description__Y810E">
+                                <div class="home_bg__Atn6d"></div>
+                                <div class="gloop-row css-mxhywb" style="margin-left:-20px;margin-right:-20px;margin-top:-20px;margin-bottom:-20px">
+                                    <div style="padding-left:20px;padding-right:20px;padding-top:20px;padding-bottom:20px" class="gloop-col gloop-col-xs-24 gloop-col-sm-24 gloop-col-md-24 gloop-col-lg-12 gloop-col-xl-12 gloop-col-xxl-12 css-mxhywb">
+                                        <div class="home_title__Q9lyE" data-aos="fade-up"
+                                        data-aos-duration="1000">
+                                            <div>
+                                                <span class="animate__animated animate__fadeInUp">COMING SOON ON ETHEREUM</span>
+                                            </div>
+                                        </div>
+                                        <div style="margin:20px 0 15px 0" class="hero-text" data-aos="fade-up"
+                                        data-aos-duration="1000" data-aos-delay="500">
+                                            GloFi
+                                        </div>
+                                        <div class="home_tx36__Y25B9">
+                                            <span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">Increase your capital efficiency</span>
+                                            <div class="home_desc__VvJ5k" style="margin-top:30px;margin-bottom:30px">
+                                                <span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500">Gloop is a decentralized borrowing platform on ethereum, powered by an over collateralized, fractional reserve stablecoin using a novel three token system.</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="gloop-row css-mxhywb" style="margin-top:-10px;margin-bottom:-10px;width:480px">
+                                                <div style="padding-top:10px;padding-bottom:10px" class="gloop-col gloop-col-xs-24 gloop-col-sm-24 gloop-col-md-24 gloop-col-lg-24 gloop-col-xl-12 gloop-col-xxl-12 css-mxhywb">
+                                                    <div style="min-width:220px" data-aos="fade-up"
+                                                    data-aos-duration="1000" data-aos-delay="2000">
+                                                        <a href="https://docs.gloop.finance/" target="_blank">
+                                                            <button style="height:48px;width:220px" type="button" class="docs">
+                                                                Read Documentation
+                                                            </button>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="padding-left:20px;padding-right:20px;padding-top:20px;padding-bottom:20px" class="gloop-col gloop-col-xs-0 gloop-col-sm-0 gloop-col-md-0 gloop-col-lg-12 gloop-col-xl-12 gloop-col-xxl-12 css-mxhywb" data-aos="fade" data-aos-duration="1000" data-aos-delay="200">
+                                        <img class="dlogo" alt="bg" loading="lazy" width="500" height="500" decoding="async" data-nimg="1" class="animate__animated animate__fadeIn" style="color:transparent;width:600px;height:600px" src="/assets/media/gloop finance 3d illustration.png"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="home_statistics__95SbA">
+                                <div class="gloop-row css-mxhywb">
+                                    <div class="gloop-col home_item___Lern gloop-col-xs-24 gloop-col-sm-24 gloop-col-md-6 gloop-col-lg-6 gloop-col-xl-6 gloop-col-xxl-6 css-mxhywb">
+                                        <div class="animate__animated animate__fadeInUp">
+                                            <h1>[Soon]</h1>
+                                            <div class="home_imgName__ExZ_w">
+                                                <span>TVL</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="gloop-col home_item___Lern gloop-col-xs-24 gloop-col-sm-24 gloop-col-md-6 gloop-col-lg-6 gloop-col-xl-6 gloop-col-xxl-6 css-mxhywb">
+                                        <div class="animate__animated animate__fadeInUp">
+                                            <h1>[Soon]</h1>
+                                            <div class="home_imgName__ExZ_w">
+                                                <span>Total Debt</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="gloop-col home_item___Lern gloop-col-xs-24 gloop-col-sm-24 gloop-col-md-6 gloop-col-lg-6 gloop-col-xl-6 gloop-col-xxl-6 css-mxhywb">
+                                        <div class="animate__animated animate__fadeInUp">
+                                            <h1>[Soon]</h1>
+                                            <div class="home_imgName__ExZ_w">
+                                                <span>Total Users</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="border:0" class="gloop-col home_item___Lern gloop-col-xs-24 gloop-col-sm-24 gloop-col-md-6 gloop-col-lg-6 gloop-col-xl-6 gloop-col-xxl-6 css-mxhywb">
+                                        <div class="animate__animated animate__fadeInUp">
+                                            <h1>[Soon]</h1>
+                                            <div class="home_imgName__ExZ_w">
+                                                <span>Available Vaults</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="home_whyGloop__H_mSM">
+                                <div style="z-index:1" class="home_tx32__3TlVI">
+                                    Why <span>GloFi? </span>
+                                </div>
+                                <div class="gloop-row gloop-row-space-around wow animate__animated animate__fadeInUp css-mxhywb" style="margin-left:-15px;margin-right:-15px;margin-top:-15px;margin-bottom:-15px" >
+                                    <div style="padding-left:15px;padding-right:15px;padding-top:15px;padding-bottom:15px" class="gloop-col gloop-col-xs-24 gloop-col-sm-12 gloop-col-md-12 gloop-col-lg-12 gloop-col-xl-6 gloop-col-xxl-6 css-mxhywb" data-aos="fade-up" data-aos-duration="1000">
+                                        <div class="home_loremipsumItem__qXwEq">
+                                            <div class="home_strongbox__RTkf7">
+                                                <img alt="Group7441" loading="lazy" width="38" height="38" decoding="async" data-nimg="1" style="color:transparent" src="/assets/media/Group 7441.14ce3350.svg"/>
+                                            </div>
+                                            <h1 class="wow animate__animated animate__fadeInUp">Capitally Efficient</h1>
+                                            <span class="wow animate__animated animate__fadeInUp">Why let your assets sit stagnantly? Borrowing against something you plan to HODL is a great way to keep exposure while unlocking assets to invest in other plays you’re bullish on.</span>
+                                        </div>
+                                    </div>
+                                    <div style="padding-left:15px;padding-right:15px;padding-top:15px;padding-bottom:15px" class="gloop-col gloop-col-xs-24 gloop-col-sm-12 gloop-col-md-12 gloop-col-lg-12 gloop-col-xl-6 gloop-col-xxl-6 css-mxhywb" data-aos="fade-up" data-aos-duration="1000">
+                                        <div class="home_loremipsumItem__qXwEq">
+                                            <div class="home_strongbox__RTkf7">
+                                                <img alt="Group7440" loading="lazy" width="38" height="39" decoding="async" data-nimg="1" style="color:transparent" src="/assets/media/Group 7440.aa7b5849.svg"/>
+                                            </div>
+                                            <h1 class="wow animate__animated animate__fadeInUp">Low Risk</h1>
+                                            <span class="wow animate__animated animate__fadeInUp">The protocol does not want you to get liquidated. Auto compounding of collateral on certain asset types constantly improves loan health. Several other features make gLoop one of the safest places to loop.</span>
+                                        </div>
+                                    </div>
+                                    <div style="padding-left:15px;padding-right:15px;padding-top:15px;padding-bottom:15px" class="gloop-col gloop-col-xs-24 gloop-col-sm-12 gloop-col-md-12 gloop-col-lg-12 gloop-col-xl-6 gloop-col-xxl-6 css-mxhywb" data-aos="fade-up" data-aos-duration="1000">
+                                        <div class="home_loremipsumItem__qXwEq">
+                                            <div class="home_strongbox__RTkf7">
+                                                <img alt="Group7439" loading="lazy" width="38" height="39" decoding="async" data-nimg="1" style="color:transparent" src="/assets/media/Group 7439.5913c2f2.svg"/>
+                                            </div>
+                                            <h1 class="wow animate__animated animate__fadeInUp">Secure</h1>
+                                            <span class="wow animate__animated animate__fadeInUp">Extremely talented developers with smart contract auditing experience developed glofi. We will also have top auditing firms go through all of the contracts before going live.</span>
+                                        </div>
+                                    </div>
+                                    <div style="padding-left:15px;padding-right:15px;padding-top:15px;padding-bottom:15px" class="gloop-col gloop-col-xs-24 gloop-col-sm-12 gloop-col-md-12 gloop-col-lg-12 gloop-col-xl-6 gloop-col-xxl-6 css-mxhywb" data-aos="fade-up" data-aos-duration="1000">
+                                        <div class="home_loremipsumItem__qXwEq">
+                                            <div class="home_strongbox__RTkf7">
+                                                <img alt="Group7438" loading="lazy" width="38" height="39" decoding="async" data-nimg="1" style="color:transparent" src="/assets/media/Group 7438.0bc6ad83.svg"/>
+                                            </div>
+                                            <h1 class="wow animate__animated animate__fadeInUp">Fun</h1>
+                                            <span class="wow animate__animated animate__fadeInUp">The Glofi community is made up of awesome ethereum loving individuals who are passionate about web3 and the future of finance.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="home_features__p2PVy">
+                                <div class="home_title__Q9lyE">
+                                    <span class="wow animate__animated animate__fadeInUp">Three Token System &amp;Auto Compounding</span>
+                                </div>
+                                <div>
+                                    <div class="gloop-row gloop-row-space-between css-mxhywb" style="margin-left:-20px;margin-right:-20px;margin-top:-20px;margin-bottom:-20px">
+                                        <div style="padding-left:20px;padding-right:20px;padding-top:20px;padding-bottom:20px" class="gloop-col gloop-col-xs-24 gloop-col-sm-24 gloop-col-md-24 gloop-col-lg-12 gloop-col-xl-12 gloop-col-xxl-12 css-mxhywb" data-aos="fade-up" data-aos-duration="1000">
+                                            <div class="home_card__6v58R">
+                                                <div style="display:flex;justify-content:center" class="wow animate__animated animate__fadeInUp">
+                                                    <div class="gloop-space css-mxhywb gloop-space-vertical" style="max-width:563px;justify-content:center">
+                                                        <div class="gloop-space-item" style="margin-bottom:20px">
+                                                            <div class="gloop-row css-mxhywb">
+                                                                <div class="gloop-col gloop-col-xs-0 gloop-col-sm-24 gloop-col-md-24 gloop-col-lg-24 gloop-col-xl-24 gloop-col-xxl-24 css-mxhywb">
+                                                                    <img alt="Rectangle4367" loading="lazy" width="561" height="283" decoding="async" data-nimg="1" style="color:transparent;width:100%; " src="/assets/media/improvised.svg"/>
+                                                                </div>
+                                                                <div class="gloop-col gloop-col-xs-24 gloop-col-sm-0 gloop-col-md-0 gloop-col-lg-0 gloop-col-xl-0 gloop-col-xxl-0 css-mxhywb">
+                                                                    <img alt="Rectangle4367" loading="lazy" width="561" height="283" decoding="async" data-nimg="1" style="color:transparent;width:100%; border-radius: 10px; max-height:160px" src="/assets/media/improvised.svg"/>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="gloop-space-item" style="margin-bottom:20px">
+                                                            <span class="home_tx24__OjpaG">Three Token System</span>
+                                                        </div>
+                                                        <div class="gloop-space-item">
+                                                            <span class="home_tx16__sRe3d">Gloop is a borrowing protocol with three tokens. IOU is an accounting token for debt, Gloop is a utility token, and GDC is a stablecoin backed by assets brought in by borrowers.</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="padding-left:20px;padding-right:20px;padding-top:20px;padding-bottom:20px" class="gloop-col gloop-col-xs-24 gloop-col-sm-24 gloop-col-md-24 gloop-col-lg-12 gloop-col-xl-12 gloop-col-xxl-12 css-mxhywb" data-aos="fade-up" data-aos-duration="1000">
+                                            <div class="home_card__6v58R">
+                                                <div style="display:flex;justify-content:center" class="wow animate__animated animate__fadeInUp">
+                                                    <div class="gloop-space css-mxhywb gloop-space-vertical" style="max-width:563px;justify-content:center">
+                                                        <div class="gloop-space-item" style="margin-bottom:20px">
+                                                            <div class="gloop-row css-mxhywb">
+                                                                <div class="gloop-col gloop-col-xs-0 gloop-col-sm-24 gloop-col-md-24 gloop-col-lg-24 gloop-col-xl-24 gloop-col-xxl-24 css-mxhywb">
+                                                                    <img alt="Rectangle" loading="lazy" width="561" height="283" decoding="async" data-nimg="1" style="color:transparent;width:100%" src="/assets/media/Rectangle.2b018799.svg"/>
+                                                                </div>
+                                                                <div class="gloop-col gloop-col-xs-24 gloop-col-sm-0 gloop-col-md-0 gloop-col-lg-0 gloop-col-xl-0 gloop-col-xxl-0 css-mxhywb">
+                                                                    <img alt="Rectangle" loading="lazy" width="561" height="283" decoding="async" data-nimg="1" style="color:transparent;width:100%;max-height:160px" src="/assets/media/Rectangle.2b018799.svg"/>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="gloop-space-item" style="margin-bottom:20px">
+                                                            <span class="home_tx24__OjpaG">Auto Compounding</span>
+                                                        </div>
+                                                        <div class="gloop-space-item">
+                                                            <span class="home_tx16__sRe3d">As you earn yield on Gloop, most of it is taken and used to increase your collateral to constantly leverage you down.  This allows our users to constantly feel safer as they allow their wealth to grow.</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="home_trybtn__vvIu8">
+                                    <a href="https://docs.gloop.finance/" target="_blank">
+                                        <button style="height:48px;width:219px" type="button" class="gloop-btn css-mxhywb  wow animate__animated animate__fadeInUp docs">
+                                            <span>Read Documentation</span>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="home_boost__eggYH">
+                                <div class="home_bg__Atn6d"></div>
+                                <div class="gloop-space css-mxhywb gloop-space-vertical">
+                                    <div class="gloop-space-item" style="margin-bottom:30px">
+                                        <div>
+                                            <img alt="Group7406" loading="lazy" width="462" height="292" decoding="async" data-nimg="1" class="wow animate__animated animate__fadeIn" style="color:transparent;max-width:451px;width:100%" src="/assets/media/buildtoboost.45f7b78f.svg"/>
+                                        </div>
+                                    </div>
+                                    <div class="gloop-space-item" style="margin-bottom:30px">
+                                        <div class="home_tx32__3TlVI">
+                                            <span class="wow animate__animated animate__fadeInUp">Built to Boost</span>
+                                        </div>
+                                    </div>
+                                    <div class="gloop-space-item" style="margin-bottom:30px">
+                                        <div class="home_desc__VvJ5k">
+                                            <span class="wow animate__animated animate__fadeInUp">Glofi allows multiple collateral types with more being considered for the future. Borrow stablecoins against ethereum tokens you are super bullish on like GLP.</span>
+                                        </div>
+                                    </div>
+                                    <div class="gloop-space-item">
+                                        <div class="wow animate__animated animate__fadeInUp" style="display:flex;justify-content:center">
+                                            <a href="https://docs.gloop.finance/" target="_blank">
+                                                <button style="width:158px;height:48px" type="button" class="gloop-btn css-mxhywb docs">
+                                                    <span>Coming Soon</span>
+                                                </button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="home_how__eaSSQ">
+                                <div style="text-align:center">
+                                    <div class="gloop-space css-mxhywb gloop-space-vertical">
+                                        <div class="gloop-space-item" style="margin-bottom:8px">
+                                            <div class="home_tx36__Y25B9">
+                                                <span class="wow animate__animated animate__fadeInUp">How it works?</span>
+                                            </div>
+                                        </div>
+                                        <div class="gloop-space-item">
+                                            <div class="home_desc__VvJ5k">
+                                                <span class="wow animate__animated animate__fadeInUp">You can deposit yield bearing tokens as collateral and earn yield on them while borrowing against their value. Over time, the yield earned on your initial deposit can pay off your loan.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="margin-top:20px">
+                                    <div class="gloop-row css-mxhywb" style="margin-left:-10px;margin-right:-10px;margin-top:-20px;margin-bottom:-20px">
+                                        <div style="padding-left:10px;padding-right:10px;padding-top:20px;padding-bottom:20px" class="gloop-col wow animate__animated animate__fadeInUp gloop-col-xs-24 gloop-col-sm-24 gloop-col-md-24 gloop-col-lg-12 gloop-col-xl-12 gloop-col-xxl-12 css-mxhywb" >
+                                            <div class="gloop-space css-mxhywb gloop-space-vertical home_stepItem__w3ioP" data-aos="fade-up" data-aos-duration="1000">
+                                                <div class="gloop-space-item" style="margin-bottom:8px">
+                                                    <div>
+                                                        <img alt="" loading="lazy" width="63" height="60" decoding="async" data-nimg="1" style="color:transparent" src="/assets/media/icon_numbers.be04ccf5.svg"/>
+                                                    </div>
+                                                </div>
+                                                <div class="gloop-space-item" style="margin-bottom:8px" >
+                                                    <div class="home_tx24__OjpaG">Connect Wallet</div>
+                                                </div>
+                                                <div class="gloop-space-item">
+                                                    <div class="home_tx16__sRe3d">Connect your wallet with the “connect wallet” button on the top right side of the page.</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="padding-left:10px;padding-right:10px;padding-top:20px;padding-bottom:20px" class="gloop-col wow animate__animated animate__fadeInUp gloop-col-xs-24 gloop-col-sm-24 gloop-col-md-24 gloop-col-lg-12 gloop-col-xl-12 gloop-col-xxl-12 css-mxhywb">
+                                            <div class="gloop-space css-mxhywb gloop-space-vertical home_stepItem__w3ioP" data-aos="fade-up" data-aos-duration="1000">
+                                                <div class="gloop-space-item" style="margin-bottom:8px">
+                                                    <div>
+                                                        <img alt="Group7417" loading="lazy" width="63" height="60" decoding="async" data-nimg="1" style="color:transparent" src="/assets/media/Group 7417.9fcf9e3b.svg"/>
+                                                    </div>
+                                                </div>
+                                                <div class="gloop-space-item" style="margin-bottom:8px">
+                                                    <div class="home_tx24__OjpaG">Find your Vault &amp;Deposit</div>
+                                                </div>
+                                                <div class="gloop-space-item">
+                                                    <div class="home_tx16__sRe3d">Select your favorite vault in the vault’s tab above to deposit the collateral of your choice. Only one position can be opened per wallet.</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="padding-left:10px;padding-right:10px;padding-top:20px;padding-bottom:20px" class="gloop-col wow animate__animated animate__fadeInUp gloop-col-xs-24 gloop-col-sm-24 gloop-col-md-24 gloop-col-lg-12 gloop-col-xl-12 gloop-col-xxl-12 css-mxhywb">
+                                            <div class="gloop-space css-mxhywb gloop-space-vertical home_stepItem__w3ioP" data-aos="fade-up" data-aos-duration="1000">
+                                                <div class="gloop-space-item" style="margin-bottom:8px">
+                                                    <div>
+                                                        <img alt="Group7418" loading="lazy" width="63" height="61" decoding="async" data-nimg="1" style="color:transparent" src="/assets/media/Group 7418.c0ef46ce.svg"/>
+                                                    </div>
+                                                </div>
+                                                <div class="gloop-space-item" style="margin-bottom:8px">
+                                                    <div class="home_tx24__OjpaG">Acquire GDC</div>
+                                                </div>
+                                                <div class="gloop-space-item">
+                                                    <div class="home_tx16__sRe3d">After depositing collateral, you will be issued IOU tokens which always equal $1 but can not leave the system. Exchange these for $GDC, GloFi Dollar Coin, and consider staking some IOU in a stability pool. </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="padding-left:10px;padding-right:10px;padding-top:20px;padding-bottom:20px" class="gloop-col wow animate__animated animate__fadeInUp gloop-col-xs-24 gloop-col-sm-24 gloop-col-md-24 gloop-col-lg-12 gloop-col-xl-12 gloop-col-xxl-12 css-mxhywb">
+                                            <div class="gloop-space css-mxhywb gloop-space-vertical home_stepItem__w3ioP" data-aos="fade-up" data-aos-duration="1000">
+                                                <div class="gloop-space-item" style="margin-bottom:8px">
+                                                    <div>
+                                                        <img alt="Group7419" loading="lazy" width="63" height="61" decoding="async" data-nimg="1" style="color:transparent" src="/assets/media/Group 7419.64abf3c6.svg"/>
+                                                    </div>
+                                                </div>
+                                                <div class="gloop-space-item" style="margin-bottom:8px">
+                                                    <div class="home_tx24__OjpaG">Convert your GDC to your favorite coin</div>
+                                                </div>
+                                                <div class="gloop-space-item">
+                                                    <div class="home_tx16__sRe3d">You can visit the GDC curve pool to swap into your favorite tokens. Once you do some swaps, you could theoretically buy more collateral and leverage up! </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="home_qAList__mDlDq">
+                                <div class="gloop-row css-mxhywb" style="margin-left:-20px;margin-right:-20px;margin-top:-20px;margin-bottom:-20px">
+                                    <div style="padding-left:20px;padding-right:20px;padding-top:20px;padding-bottom:20px" class="gloop-col gloop-col-xs-24 gloop-col-sm-24 gloop-col-md-24 gloop-col-lg-12 gloop-col-xl-12 gloop-col-xxl-12 css-mxhywb" data-aos="fade-up" data-aos-duration="1000">
+                                        <div class="gloop-space css-mxhywb gloop-space-vertical wow animate__animated animate__fadeInUp" style="padding:12px">
+                                            <div class="gloop-space-item" style="margin-bottom:30px">
+                                                <div class="home_tx32__3TlVI">Get the answers you need about GloFi</div>
+                                            </div>
+                                            <div class="gloop-space-item">
+                                                <div>
+                                                    <a href="https://docs.gloop.finance/" target="_blank">
+                                                        <button style="width:140px;height:48px" type="button" class="gloop-btn css-mxhywb docs">
+                                                            <span>Read more</span>
+                                                        </button>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="padding-left:20px;padding-right:20px;padding-top:20px;padding-bottom:20px" class="gloop-col gloop-col-xs-24 gloop-col-sm-24 gloop-col-md-24 gloop-col-lg-12 gloop-col-xl-12 gloop-col-xxl-12 css-mxhywb" data-aos="fade-up" data-aos-duration="1000">
+                                        <div class="gloop-collapse gloop-collapse-icon-position-start css-mxhywb">
+                                            <div class="accordion">
+                                                <div class="accordion-item">
+                                                  <button id="accordion-button-3" aria-expanded="false">
+                                                    <span class="accordion-title" style="font-size: 2.5rem; font-weight: bold; color: white;" >Why three tokens?</span>
+                                                    <span class="icon" aria-hidden="true"></span>
+                                                  </button>
+                                                  <div class="accordion-content">
+                                                    <p class="accord-text" style="color: #eee; font-size: 1.5rem; ">
+                                                        A table balances better with three legs, not two. By introducing a third token, users can open new positions and borrow the amounts they expect without worrying about stablecoin peg. More information can be found on the gitbook.
+                                                    </p>
+                                                  </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                  <button id="accordion-button-4" aria-expanded="false">
+                                                    <span class="accordion-title" style="font-size: 2.5rem; font-weight: bold; color: white;">How long can I keep a position open?</span>
+                                                    <span class="icon" aria-hidden="true"></span>
+                                                  </button>
+                                                  <div class="accordion-content">
+                                                    <p class="accord-text" style="color: #eee; font-size: 1.5rem; ">Forever as long as you aren’t liquidated.
+
+                                                    </p>
+                                                  </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                  <button id="accordion-button-5" aria-expanded="false">
+                                                    <span class="accordion-title" style="font-size: 2.5rem; font-weight: bold; color: white;">Are there funding fees?</span>
+                                                    <span class="icon" aria-hidden="true"></span>
+                                                  </button>
+                                                  <div class="accordion-content">
+                                                    <p class="accord-text" style="color: #eee; font-size: 1.5rem; ">Nope. Just small deposit and withdraw fees, and on some assets, performance fees - which are only taken when yield is being made. More information is available on the gitbook.</p>
+                                                  </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                  <button id="accordion-button-5" aria-expanded="false">
+                                                    <span class="accordion-title" style="font-size: 2.5rem; font-weight: bold; color: white;">How is GDC collateralized?</span>
+                                                    <span class="icon" aria-hidden="true"></span>
+                                                  </button>
+                                                  <div class="accordion-content">
+                                                    <p class="accord-text" style="color: #eee; font-size: 1.5rem; ">Users deposit assets to the system which are used to back GDC they mint. Users must borrow less than they deposit, making the system’s value much higher than the number of GDC circulating..</p>
+                                                  </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                  <button id="accordion-button-5" aria-expanded="false">
+                                                    <span class="accordion-title" style="font-size: 2.5rem; font-weight: bold; color: white;">When</span>
+                                                    <span class="icon" aria-hidden="true"></span>
+                                                  </button>
+                                                  <div class="accordion-content">
+                                                    <p class="accord-text" style="color: #eee; font-size: 1.5rem; ">Coming soon! Follow us on twitter and join the discord to be the first to know!</p>
+                                                  </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                  <button id="accordion-button-5" aria-expanded="false">
+                                                    <span class="accordion-title" style="font-size: 2.5rem; font-weight: bold; color: white;">How can I acquire $GloFi?</span>
+                                                    <span class="icon" aria-hidden="true"></span>
+                                                  </button>
+                                                  <div class="accordion-content">
+                                                    <p class="accord-text" style="color: #eee; font-size: 1.5rem; ">You can apply for our whitelist at the top of this page and then following some steps. GMX Blueberry Club holders will also be able to participate in the sale, but are encouraged to increase their max allocation by also applying for the whitelist.</p>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Footer_foot__wCYdM">
+                    <div style="max-width:1440px;width:100% footer">
+                                <div class="gloop-space css-mxhywb gloop-space-vertical ">
+                                    <div class="gloop-space-item" style="padding: 20px 0;">
+                                        <img alt="" loading="lazy" width="60" height="60" decoding="async" data-nimg="1" style="color:transparent;" src="assets/media/gloop finance logo.png"/>
+                                    </div>
+                                    <span class="logo-text">GloFi</span>
+                                </div>
+                                    <div class="gloop-col Footer_footItem___eIOe gloop-col-xs-24 gloop-col-sm-24 gloop-col-md-24 gloop-col-lg-8 gloop-col-xl-8 gloop-col-xxl-6 css-mxhywb footer-item">
+                                        <p style="padding-left: 10px;">Community</p>
+                                        <div class="gloop-space css-mxhywb gloop-space-horizontal gloop-space-align-center" >
+                                            <div class="gloop-space-item" style="margin-right:20px ">
+                                                <a href="https://twitter.com/gloopfinance" target="_blank" >
+                                                    <img alt="twitter" loading="lazy" width="30" height="30" decoding="async" data-nimg="1" src="/assets/media/svg/Twitter.svg"/>
+                                                </a>
+                                            </div>
+                                            <div class="gloop-space-item" style="margin-right:20px">
+                                                <a href="https://docs.gloop.finance/" target="_blank">
+                                                    <img alt="document" loading="lazy" width="20" height="20" decoding="async" data-nimg="1" style="color:transparent" src="/assets/media/svg/gloop.svg"/>
+                                                </a>
+                                            </div>
+                                            <div class="gloop-space-item">
+                                                <a href="https://gloopfinance.medium.com/" target="_blank">
+                                                    <img alt="medium" loading="lazy" width="20" height="30" decoding="async" data-nimg="1" style="color:transparent" src="/assets/media/svg/medium.svg"/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+            <script src="assets/scripts/app.js"></script>
+    </body>
+</html>
